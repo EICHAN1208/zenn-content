@@ -1,6 +1,6 @@
 ---
 title: "Ruby Benchmark を使ってみる"
-emoji: "😽"
+emoji: "🥸"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Ruby"]
 published: true
@@ -29,9 +29,9 @@ upto:        0.000685   0.000001   0.000686 (  0.000687)
 ```
 
 やっていることとしては、以下の３つのプログラムの実行速度を比較しています
-- `for i in 1..1000; a = "1"; end`
-- `1000.times do ; a = "1"; end`
-- `1.upto(1000) do ; a = "1"; end`
+- `for i in 1..1000; a = "test"; end`
+- `1000.times do ; a = "test"; end`
+- `1.upto(1000) do ; a = "test"; end`
 
 
 benchmarkメソッドの各引数について、
